@@ -1598,7 +1598,11 @@
           <paramref name="year" /> is outside the range supported by the calendar.  
   
  -or-  
-  
+
+<see href="~/docs/standard/datetime/working-with-calendars.md#calendars-eras-and-date-ranges-relaxed-range-checks">Strict era range checks</see> are enabled, and <paramref name="year" /> is outside the range supported by <paramref name="era" />.
+
+ -or-
+
  <paramref name="month" /> is outside the range supported by the calendar.  
   
  -or-  

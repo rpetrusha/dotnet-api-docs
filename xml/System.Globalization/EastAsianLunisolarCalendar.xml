@@ -972,7 +972,13 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="year" />, <paramref name="month" />, <paramref name="day" />, <paramref name="hour" />, <paramref name="minute" />, <paramref name="second" />, <paramref name="millisecond" />, or <paramref name="era" /> is outside the range supported by this calendar.</exception>
+          <paramref name="year" />, <paramref name="month" />, <paramref name="day" />, <paramref name="hour" />, <paramref name="minute" />, <paramref name="second" />, <paramref name="millisecond" />, or <paramref name="era" /> is outside the range supported by this calendar.
+
+-or-
+
+<see href="~/docs/standard/datetime/working-with-calendars.md#calendars-eras-and-date-ranges-relaxed-range-checks">Strict era range checks</see> are enabled, and <paramref name="year" /> is outside the range supported by <paramref name="era" />.
+
+          </exception>
       </Docs>
     </Member>
     <Member MemberName="ToFourDigitYear">
